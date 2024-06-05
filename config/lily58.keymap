@@ -17,6 +17,13 @@
         NumpadLayer {
             bindings = <&tog 3>;
             key-positions = <52 55>;
+            layers = <0 1 2>;
+        };
+
+        BackToDefault {
+            bindings = <&mo 0>;
+            key-positions = <52 55>;
+            layers = <3>;
         };
     };
 
